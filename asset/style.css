@@ -1,0 +1,25 @@
+.google-bleu {
+    color: rgb(1, 1, 221);
+}
+
+.google-rouge {
+    color: rgb(255, 3, 3);
+}
+
+.google-jaune {
+    color: rgb(255, 255, 1);
+}
+
+.google-vert {
+    color: rgb(0, 255, 0);
+}
+input{
+    border-radius: 20px;
+}
+h1 {
+    font-size: 100px;
+    margin-left: 120%;
+}
+input{
+    width: 45em;
+}

@@ -9,55 +9,58 @@
     <link rel="stylesheet" href="../asset/css/bootstrap.min.css">
     <link rel="stylesheet" href="/asset/style.css">
 </head>
-
 <body>
-    <h1>Bootstrap</h1>
-    <h2>Titre h2 avec une classe h1</h2>
-    <p class="h1">h1. Bootstrap heading</p>
-    <p class="h2">h2. Bootstrap heading</p>
-    <p class="h3">h3. Bootstrap heading</p>
-    <p class="h4">h4. Bootstrap heading</p>
-    <p class="h5">h5. Bootstrap heading</p>
-    <p class="h6">h6. Bootstrap heading</p>
+ <header class="d-flex justify-content-end">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Gmail</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Images</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-primary" type="submit">Compte</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+ </header>
+ 
+ <div class="position-absolute top-50 start-50 translate-middle">
+<div class="google">
+ <div class="col-3 p-3 ">
+     <h1  span class="google-bleu">G</span><span class="google-rouge">o</span><span class="google-jaune">o</span><span
+            class="google-bleu">g</span><span class="google-vert">l</span><span class="google-rouge">e</span></h1> 
+  </div>
+  </div>
+  <div class="input-group input-group-lg">
+    <input class="shadow p-3 mb-5 bg-body rounded-pill" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="&#x1F50D">
 
-    <p class="display-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit iusto quod libero. Unde ipsa itaque sequi tempora dolores, mollitia ratione neque deleniti qui! Fugit facere est quas modi dolor atque.</p>
+  </div>
+  <div class="d-flex justify-content-center d-grid gap-3">
+    <button type="button" class="btn btn-light btn-sm">Recherche Google</button>
+    <button type="button" class="btn btn-light btn-sm">J'ai de lachance</button>
+  </div>
+  <div class="d-flex justify-content-center">
+      <p>Google disponible en : <span>English</span></p>
+  </div>
 
-    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit iusto quod libero. Unde ipsa itaque sequi tempora dolores, mollitia ratione neque deleniti qui! Fugit facere est quas modi dolor atque.</p>
+ 
 
-    <img src="https://picsum.photos/200/300" class="img-fluid"  alt="">
-    <img src="https://picsum.photos/200/300" class="rounded float-start" alt="">
-    <img src="https://picsum.photos/200/300" class="rounded float-end" alt="">
+    
+             
+</div>
 
 
-    <table class="table">
-        <thead>
-          <tr class="table-primary" >
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr class="table-danger" >
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
+      <script src="/asset/js/bootstrap.min.js"></script>
 </body>
 
 </html>
